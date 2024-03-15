@@ -1,6 +1,6 @@
 #!/bin/bash
-python3 ./lab9.py
-grep -n 'class\|Application\|import\|greeting' lab9.py
+python3 $1
+grep -n 'class\|App\|import\|greeting' $1
 
 #while read -r output
 
